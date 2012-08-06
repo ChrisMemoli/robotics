@@ -1,0 +1,153 @@
+/* Global white space reset */
+* {padding:0; margin:0}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address {margin:0}
+li, dd {margin-left:15px}
+fieldset {padding:6px}
+
+/* Undo default HTML styling of common browsers */
+a:link, a:visited {text-decoration:none; color:#aaa; }
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited {text-decoration:none; color:#1c4851}
+ul, ol {list-style:none}
+img {border: #000000none}
+
+/* General */
+html, body {height:100%}
+body {
+ 	background:#19b2b2;
+	background-attachment:fixed;
+	color:#4e4a49;
+	text-align:center;
+	margin:0;
+	font:normal 11px/15px verdana,serif
+	}
+
+/* General links */
+a:hover {text-decoration:underline}
+a:active {text-decoration:none}
+a:focus, input:focus {outline:none}
+
+/* Paragraph and headings */
+p {margin:0 0 8px 0}
+h1 {font-size:14px}
+h2 {font-size:13px}
+h3 {}
+h4 {font-size:11px}
+h5 {font-size:10px}
+
+
+#global {
+	width:800px;
+	min-height:100%;
+	height:auto;
+	margin:0 auto 0 auto;
+	text-align:left;
+	margin-bottom: -130px;
+	}
+* html #global {height:100%}
+
+/* Header */
+#header {
+	width:800px; 
+	height:240px; 
+	background:url('../img/shadow.png') repeat-y top left; 
+	position:relative;
+	margin: 10px 0 0 0;
+}
+#logo{
+	background:url('../img/logo.png') no-repeat; 
+	width: 218px;
+	height: 104px;
+	position: relative;
+	top: -10px;
+	left: 15px;
+	z-index: 100;
+}
+#slogan{
+	color: #19b3b3;
+	position: relative;
+	width: 400px;
+	top: 0px;
+	left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 200;
+}
+#home{
+	background: url("../img/home.png") no-repeat top left;
+	width: 334px;
+	height: 168px;
+	position:relative;
+	float: right;
+	top:-13px;
+	right: 95px;
+	z-index: 300;
+}
+
+/* ---------------------- nav ---------------------- */
+#menu-nav{color: #663333; z-index:100;display:block;position:absolute;top:180px;left:295px;height:46px;width:455px;font-size:14px;}
+#menu-nav ul{margin:0;padding:0;padding-left:5px;list-style-type:none;width:auto;float:left;}
+#menu-nav ul li{display:block;float:left;margin:0 2px;}
+#menu-nav ul li a{color: #663333;position:relative;right:6px;background:transparent url("../img/time2bed_left-ON.png") no-repeat top left; display:block;float:left;text-decoration:none;padding:0 0 0 0;height:46px;line-height:34px;}
+#menu-nav ul li a span{position:relative;right:-6px;background:transparent url("../img/time2bed_right-ON.png") no-repeat top right; display:block;float:left;padding:.5px 7px 0 1px;height:46px;width:auto;margin-left:-3px;}
+#menu-nav ul li a span span{background:none;}
+#menu-nav ul li a:hover span span, #menu-nav ul li a.current span span{background: url("../img/scoop.png") no-repeat top center;  margin-top:-8px; position:relative; left:-2px}
+#menu-nav ul li a.current,#menu-nav ul li a:hover,#menu-nav ul li a.current:hover{cursor:pointer;background:transparent url("../img/time2bed_left-ON.png") no-repeat top left;position:relative;right:6px; top: -15px;}
+#menu-nav ul li a.current span, #menu-nav ul li a:hover span{cursor:pointer;background:transparent url("../img/time2bed_right-ON.png") no-repeat top right;position:relative;right:-6px;height:46px;padding-top:12px;margin-left:0px; padding-right:3px;padding-left:2px}
+/* ---------------------- END nav ---------------------- */
+
+/* CONTENT AND COLUMNS */
+.Ctopleft {background:url('../img/corner_tl.png') no-repeat top left; width:30px; display:block; height:30px; overflow:hidden; position:absolute; left:-2px; top:-2px;}
+.Ctopright {background:url('../img/corner_tr.png') no-repeat top right; width:30px; height:30px; overflow:hidden; position:absolute; right:-2px; top:-2px;}
+.Cbottomright {background:url('../img/corner_br.png') no-repeat top right; width:30px; height:30px; overflow:hidden; position:absolute; right:-2px; bottom:-2px;}
+.Cbottomleft {background:url('../img/corner_bl.png') no-repeat top right; width:30px; height:30px; overflow:hidden; position:absolute; left:-2px; bottom:-2px;}
+.Cbottoms {background:url('../img/corners-bottom.png') no-repeat top right; width:504px; height:30px; overflow:hidden; position:absolute; left:-2px; bottom:-30px;}
+
+
+#content {background:url('../img/shadow.png') repeat-y top left;position:relative;height:auto; margin-top:-1px}
+#content a:link, #content a:visited {text-decoration:none; color:#663333; }
+#content a:hover{text-decoration:underline}
+#city{background: url("../img/city.png") no-repeat top left; width: 217px; height: 155px; position: absolute; top: -10px; left: 53px;}
+#cA {background-color:#ffffff;z-index: 100; position: absolute; top: 100px;float: left; border: #000000 2px solid; padding:30px 30px 30px 20px; width:210px; margin:0px 5px 0 30px;}
+#cA h2{color: #19b3b3;
+	font-size:17px; margin-bottom:8px; line-height:20px;}
+#cA p{color: #000000; font-size:15px;line-height:15px; margin-bottom: 0px;}
+#cA h3{color: #000000; font-size:17px; line-height:20px}
+
+#cB {min-height: 400px;z-index: 500;background-color: #FFFFFF; z-index: 200; border: #000000 2px solid; border-bottom: 0px solid; position:relative; top: -30px; float:right; padding:10px 20px 0 20px; width:460px; margin:0px 30px -30px 0px; display:inline; }
+#cB h2{background: url("../img/cone.png") no-repeat top left;color:#000000; font-size:18px;margin-bottom:6px; line-height:30px; text-align:left; padding-left: 18px;}
+#cB p{color:#000000; font-size:14px;}
+#cB h3{color:#000000; font-size:14px; font-weight:bold}
+#cB li{color:#1e3263; font-size:14px;}
+#cB img{float: left; margin: 10px 10px 0 0}
+#content hr{margin:20px 0 20px 0;border: #000000none; height:3px; background-color:#3458ae;}
+.Cbottom {
+	width:800px;
+	height:20px;
+	position:relative;
+	top:20px;
+	background:url('../img/shadow-bottom.png') no-repeat;
+}
+.Ctop {
+	width:800px;
+	height:20px;
+	position:relative;
+	bottom:-10px;
+	background:url('../img/shadow-top.png') no-repeat;
+}
+
+
+	
+/* Footer */
+#foot {font-size: 14px;border:#000000 2px solid; height: 50px; margin: 0px 30px 0px 30px; padding: 30px 10px 5px 10px; color:#663333; position: relative; bottom: -10px;}
+#foot a:link, #foot a:visited {color:#663333; text-decoration:none;}
+#foot a:hover {text-decoration:underline;}
+.links {position:absolute; right:10px}
+.address{position:absolute;left:170px;}
+.phone{right:250px;position:absolute;}
+.pwm{position:absolute; left: 10px;}
+
+/* Misc */
+.clear {clear:both}
+.leflo {float:left}
+.riflo {float:right}
+#preloader {display:none}

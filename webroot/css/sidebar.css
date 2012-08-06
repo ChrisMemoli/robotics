@@ -1,0 +1,6 @@
+a:link, #content a:visited {text-decoration:none; color:#663333; }
+a:hover{text-decoration:underline}
+h2{background:none; color: #19b3b3;
+	font-size:17px; margin-bottom:8px; line-height:20px;}
+p{color: #000000; font-size:15px;line-height:15px; margin-bottom: 0px;}
+h3{color: #000000; font-size:17px; line-height:20px}
