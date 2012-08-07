@@ -39,7 +39,7 @@
 	<div id="container">
 		<div id="header">
 			<?php echo $this->Html->link(
-					$this->Html->image('logo2.png', array('alt'=> __('Rockland', true), 'border' => '0')),
+					$this->Html->image('../img/old/pioneer.jpg', array('alt'=> __('robotics', true), 'border' => '0')),
 					array('controller' => 'pages', 'action' => 'display'),
 					array('target' => '', 'escape' => false)
 				);
@@ -58,7 +58,7 @@
 		</div>
 		<div id="footer">
 			<?php echo $this->Html->link(
-					$this->Html->image('logo2.png', array('alt'=> __('Rockland', true), 'border' => '0')),
+					$this->Html->image('../img/old/pioneer.jpg', array('alt'=> __('robotics', true), 'border' => '0')),
 					array('controller' => 'pages', 'action' => 'display'),
 					array('target' => '', 'escape' => false)
 				);
