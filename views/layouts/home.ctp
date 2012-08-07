@@ -59,7 +59,7 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://pacewebmedia.com"><?php echo $this->Html->image("pacewebmedia.png")?></a>
 				</span>
 				<span class="address">
-					543 E. 11th Street<br />
+					163 william street<br />
 					New York, NY 10009
 				</span>
 				<span class="phone">
