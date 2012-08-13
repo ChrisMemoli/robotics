@@ -135,8 +135,13 @@ class UsersController extends AppController {
 	/*
 	* So you can add new user 
 	*/
+	
+	
 	function add(){
 		$this->set('left_element', 'admin');
+		if($this->Auth->user()){
+		$this->redirect(array('controllers' =>'pages','action'=>'display',  'home'));
+		}
 		if(!empty($this->data)){
 			$this->data['User']['password'] = Authsome::hash($this->data['User']['password']);//hashes the password
 			$this->data['User']['group_id'] = 1;

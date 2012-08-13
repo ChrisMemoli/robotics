@@ -35,12 +35,12 @@
                 <ul>
                     <?php echo $this->Menu->link('Home', array('controller' => 'pages', 'action' => 'display', 'home')); ?>
                     <?php echo $this->Menu->link('About Us', array('controller' => 'pages', 'action' => 'display', 'about')); ?>            
-                    <?php echo $this->Menu->link('Events', array('controller' => 'pages', 'action' => 'display', 'events'));  ?>            
-                    <?php echo $this->Menu->link('Press', array('controller' => 'pages', 'action' => 'display', 'Press'));  ?>
-                    <?php echo $this->Menu->link('Photos', array('controller' => 'pages', 'action' => 'display', 'photos')); ?>
-                    <?php echo $this->Menu->link('FAQs', array('controller' => 'pages', 'action' => 'display', 'FAQs'));  ?>
+                    <?php echo $this->Menu->link('Courses', array('controller' => 'pages', 'action' => 'display', 'courses'));  ?>            
+                    <?php echo $this->Menu->link('Robots', array('controller' => 'pages', 'action' => 'display', 'robots'));  ?>
+                    <?php echo $this->Menu->link('Members', array('controller' => 'pages', 'action' => 'display', 'members')); ?>
+                    <?php echo $this->Menu->link('Software', array('controller' => 'pages', 'action' => 'display', 'software'));  ?>
                     <?php echo $this->Menu->link('Contact', array('controller' => 'pages', 'action' => 'display', 'contact')); ?>    
-                </ul>
+                </ul> 
             </div>
         </div>
         <div id="content">

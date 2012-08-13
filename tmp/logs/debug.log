@@ -11,3 +11,5 @@
 2012-01-17 21:45:25 Notice: Notice (8): Undefined property: HtmlHelper::$Html in [/Users/christophermemoli/Sites/mt_pleasant/views/elements/admin.ctp, line 20]
 2012-01-17 22:06:42 Notice: Notice (8): Undefined variable: content in [/Users/christophermemoli/Sites/mt_pleasant/views/elements/sidebar.ctp, line 1]
 2012-01-17 22:07:43 Notice: Notice (8): Undefined variable: content in [/Users/christophermemoli/Sites/mt_pleasant/views/elements/sidebar.ctp, line 1]
+2012-08-13 18:45:20 Notice: Notice (8): Undefined property: UsersController::$Auth in [/Users/christophermemoli/Sites/robotics/controllers/users_controller.php, line 142]
+2012-08-13 18:45:21 Notice: Notice (8): Undefined property: UsersController::$Auth in [/Users/christophermemoli/Sites/robotics/controllers/users_controller.php, line 142]
